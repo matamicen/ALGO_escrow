@@ -14,7 +14,7 @@ with open("escrow.teal.tok", "rb") as f:
 # program = b"\x01\x20\x01\x00\x22"  # int 0
 program = a
 lsig = transaction.LogicSigAccount(program)
-sender = lsig.address()  # el sender el address del escrow solo el escrow puede ser sender a menos que se haga un delegate
+sender = lsig.address()  # el sender el address del escrow 
 # receiver = account.generate_account()
 receiver = "ZZAF5ARA4MEC5PVDOP64JM5O5MQST63Q2KOY2FLYFLXXD3PFSNJJBYAFZM"
 # receiver = "36JI63UMBEKRVLCYUWL76JIJS5YIUKSQNGXQSK6QZLIJJOWKWH3GPTEFYU"
